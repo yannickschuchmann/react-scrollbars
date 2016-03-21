@@ -1,6 +1,7 @@
 /** @jsx React.DOM */
 'use strict'
 var React = require('react');
+var ReactDOM = require('react-dom');
 
 var Home = require('./views/home/index.jsx');
 
@@ -22,4 +23,4 @@ var App = React.createClass({
   }
 });
 
-React.render(<App />, document.body);
+ReactDOM.render(<App />, document.getElementById("App"));
